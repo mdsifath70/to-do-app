@@ -1,0 +1,20 @@
+@media (max-width: 576.98px) {
+  .container {
+    padding: 15px 12px;
+    margin: 12px;
+  }
+  .new-task-container {
+    grid-auto-flow: row;
+  }
+  .new-task-container label {
+    justify-self: center;
+  }
+  .todo-list {
+    float: none;
+    width: 100%;
+  }
+  .complete-list {
+    float: none;
+    width: 100%;
+  }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Sifath" />
+  <meta name="description" content="We love JavaScript" />
+
+  <!-- Web Title -->
+  <title>To Do App By Sifath</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css" />
+</head>
+
+<body>
+  <!-- container -->
+  <section class="container">
+    <h1 id="header" class="header">To-Do App</h1>
+
+    <form class="new-task-container box" id="form">
+      <label for="new-task">Add New Task</label>
+      <input type="text" id="new-task" placeholder="Add new task" autocomplete="off" />
+      <input type="submit" id="addTask" value="Add Task" />
+    </form>
+
+    <!-- Todo List -->
+    <div class="todo-list box">
+      <h2>Incomplete Tasks</h2>
+      <ul id="items">
+        <li class="item">
+          <input type="checkbox" />
+          <label>Task Name</label>
+        </li>
+        <li class="item">
+          <input type="checkbox" />
+          <label>Task Name</label>
+        </li>
+        <li class="item">
+          <input type="checkbox" />
+          <label>Task Name</label>
+        </li>
+      </ul>
+    </div>
+
+    <!-- complete list -->
+    <div class="complete-list box">
+      <h2>Completed Tasks</h2>
+      <ul>
+        <li class="item">Task Name <button class="delete">Delete</button></li>
+      </ul>
+    </div>
+  </section>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
